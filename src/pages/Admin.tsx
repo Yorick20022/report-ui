@@ -4,11 +4,11 @@ import { ReportSidebar } from "../components/report-sidebar"
 import { useState, useCallback, useEffect } from 'react';
 import { useNuiEvent } from "../utils/useNuiEvents";
 import { fetchNui } from '../utils/fetchNui';
-
+import { devMode } from "../DevMode"
 
 export const Admin = () => {
 
-  const [nui, setNui] = useState(false) // This makes sure that the NUI is false on startup of the resource
+  const [nui, setNui] = useState(devMode) // This makes sure that the NUI is false on startup of the resource
   
   useNuiEvent("setOpen", setNui)
 
