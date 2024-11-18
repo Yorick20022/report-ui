@@ -13,6 +13,6 @@ createRoot(document.getElementById('root')!).render(
       <Route path="/history" element={<History />} />
       <Route path="/admin" element={<Admin />} />
       <Route path="*" element={<div>That page does not exist</div>} />
-    </Routes>
+    </Routes> 
   </HashRouter>
 );

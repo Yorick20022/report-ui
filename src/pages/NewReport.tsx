@@ -5,7 +5,7 @@ import { ReportCard } from "../components/report-card"
 import { useState, useCallback, useEffect } from 'react';
 import { useNuiEvent } from "../utils/useNuiEvents";
 import { fetchNui } from '../utils/fetchNui';
-import { devMode } from "../DevMode"
+import { devMode } from "../utils/DevMode"
 
 export const NewReport = () => {
 

@@ -4,7 +4,7 @@ import { ReportSidebar } from "../components/report-sidebar"
 import { useState, useCallback, useEffect } from 'react';
 import { useNuiEvent } from "../utils/useNuiEvents";
 import { fetchNui } from '../utils/fetchNui';
-import { devMode } from "../DevMode"
+import { devMode } from "../utils/DevMode"
 
 export const History = () => {
 
